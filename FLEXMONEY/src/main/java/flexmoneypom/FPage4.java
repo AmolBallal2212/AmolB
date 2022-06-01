@@ -14,7 +14,7 @@ public class FPage4 {
 	}
 	@FindBy(xpath="//input[@type='tel']")
 	private WebElement otp;
-	
+	//
 	@FindBy(xpath="//input[@type='checkbox']")
 	private WebElement agree;
 	

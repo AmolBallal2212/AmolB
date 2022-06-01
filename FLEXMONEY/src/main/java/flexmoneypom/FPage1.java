@@ -11,7 +11,7 @@ public class FPage1 extends  Ftestbase1  {
 	public  FPage1() {
 		PageFactory.initElements(d, this);
 	}
-	
+	//
 	
 	@FindBy(xpath="//select[@id='GID']")
 	private WebElement click;

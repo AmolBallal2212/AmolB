@@ -11,6 +11,7 @@ public class FlexPage2 {
 	WebDriver d;
 	public FlexPage2() {
 		PageFactory.initElements( d,this);
+		//
 	}
 	@FindBy(xpath="//input[@id='1000001']")
 	private WebElement emi;
